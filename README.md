@@ -1,0 +1,2 @@
+# Socket-data-collection-analysis-and-storage-in-C
+This code is for TCP connection between different devices using the server to receive data from clients. Three threads were used to write data to a shared buffer; read from the buffer and calculate the average; and to store them into the database. A log file was written to know the status of the program by implementing a child process to write the file. Thread-safety and memory leakage free code. 
